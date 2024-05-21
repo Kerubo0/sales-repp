@@ -43,7 +43,7 @@ app.post('/submit', async (req, res) => {
             data,
             {
                 headers: {
-                    'X-API-KEY': apiKey,
+                    'X-API-KEY': 'apiKey',
                     'Content-Type': 'application/json',
                     'Accept': 'application/json'
                 }
