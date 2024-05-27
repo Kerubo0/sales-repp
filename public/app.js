@@ -114,7 +114,7 @@ btnFive.addEventListener("click", ()=> {
 })
 
 const angleOne = document.getElementById("angle-one")
-var dropdownMenu = document.getElementById('dropdownMenu');
+/*var dropdownMenu = document.getElementById('dropdownMenu');
 
   // Add click event listener to the image
   angleOne.onclick = function() {
@@ -124,7 +124,7 @@ var dropdownMenu = document.getElementById('dropdownMenu');
     } else {
         dropdownMenu.style.display = "none";
     }
-}; 
+}; */
 
 // Get all elements with the class name 'angle'
 var angleImages = document.querySelectorAll('.angle');
@@ -151,7 +151,7 @@ angleImages.forEach(function(image) {
 
 
 var angleImages = document.querySelectorAll('.angle');
-const angleElem = document.getElementById("expand_less")
+/*const angleElem = document.getElementById("expand_less")
  // Get the dropdown menu
  var dropdownMenu = document.getElementById('dropdownMenu');
 
@@ -162,4 +162,4 @@ const angleElem = document.getElementById("expand_less")
 
     // Show the expand more image
     //angleImages.style.display = "block";
-}); 
+}); */
