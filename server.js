@@ -35,7 +35,10 @@ app.post('/submit', async (req, res) => {
                 type: 'email',
                 sendWelcomeMessage: true
             }],
-            firstName: name,
+            //firstName: name,
+            'customProperties': {
+                'landingpage': 'andy'
+              }
             
         };
 
