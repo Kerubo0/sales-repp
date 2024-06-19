@@ -14,12 +14,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
-app.get('/join', (req, res) => {
+/*app.get('/join', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'form.html'));
+}); */
+
+app.get('/public', (req, res) => {
+    res.sendFile(__dirname + '/index.html');
 });
 
 const apiKey = '6465033e71a2f8c907941509-t4xU2dZFtTDbjBheXP70DO7UP1GUUaXWhsX22AaQdWEq1EkUp9';
-app.post('/submit', async (req, res) => {
+app.post('/submit-form', async (req, res) => {
     try {
         const { name, email } = req.body;
 

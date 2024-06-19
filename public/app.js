@@ -71,10 +71,10 @@ backToTopBtn.addEventListener("click", () => {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }); */
 
-const actionBtn = document.getElementById("action_btn");
+/* const actionBtn = document.getElementById("action_btn");
 
 actionBtn.addEventListener("click", ()=> {
- window.location.href = "https://sautiai.com/andy/public/join"
+ window.location.href = "http://localhost:3000/join"
 })
 
 const actionBtnTwo = document.getElementById("action_btn2");
@@ -111,20 +111,17 @@ const btnFive = document.getElementById("btn-5");
 
 btnFive.addEventListener("click", ()=> {
  window.location.href = "http://localhost:3000/join"
-})
+}) */
 
-const angleOne = document.getElementById("angle-one")
-/*var dropdownMenu = document.getElementById('dropdownMenu');
+ const buttons = document.querySelectorAll(".btn").forEach(button => {
+  button.addEventListener('click', () => {
+    document.getElementById('formContainer').style.display = 'flex';
+  });
+ });
 
-  // Add click event listener to the image
-  angleOne.onclick = function() {
-    // Toggle the display property
-    if (dropdownMenu.style.display === "none" || dropdownMenu.style.display === "") {
-        dropdownMenu.style.display = "block";
-    } else {
-        dropdownMenu.style.display = "none";
-    }
-}; */
+ document.querySelector(".form-container .close-btn").addEventListener("click", function() {
+  document.getElementById('formContainer').style.display ='none';
+ });
 
 // Get all elements with the class name 'angle'
 var angleImages = document.querySelectorAll('.angle');

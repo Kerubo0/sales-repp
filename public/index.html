@@ -19,9 +19,9 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
   
   <header>
 
-    <nav class="navbar navbar-expand-lg " id="navigation">
-      <div class="container-fluid">
-          <a class="navbar-brand ml-5" href="#" id="navbar-brand">
+    <nav class="navbar  " id="navigation">
+      <div class="container-fluid ">
+          <a class="navbar-brand " href="#" id="navbar-brand">
               <img src="images/Sauti Logo_Artboard 1 (1).svg" alt="Sauti's Logo" height="60px">
           </a>
 
@@ -208,7 +208,10 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
               </div>
           </div>
          
-          <a href="#" class="action_btn" id="action_btn">Join WaitList</a>
+          <div class="flex center">
+            <button class="btn primary" id="action_btn" type="button">Join Waitlist</button>
+        </div>
+          <!--<a href="#" class="action_btn" id="action_btn">Join WaitList</a>-->
       <div class="toggle_btn">
           <i class="fa-solid fa-bars"></i>
       </div>
@@ -317,9 +320,12 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
               </ul>
           </div>
 
-          <div class="btn_t" id="action_btn2">
+          <!--<div class="btn_t" id="action_btn2">
               <button class="cta_btn_t" > Join WaitList</button>
-          </div>
+          </div>-->
+          <div class="flex center">
+            <button class="btn primary" id="action_btn2" type="button">Join Waitlist</button>
+        </div>
       </div> 
   </nav>
 
@@ -392,6 +398,23 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
   <div class="flex center">
       <button class="btn primary" id="btn-2" type="button">Join Waitlist</button>
   </div>
+
+  <!--  FORM START-->
+  <div id="form-container"></div>
+
+  <div class="form-container" id="formContainer" style="display: none;">
+    <form  id="myForm" method="POST" action="submit-form">
+      <div class="close-btn">&times;</div>
+        <h5 style="text-align: center; padding-bottom: 10px;">Join Waitlist</h5>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <div class="flex center">
+            <button type="submit" class="submit-btn">Submit</button>
+        </div>
+    </form>
+</div>
+
+  <!--  FORM END-->
 
   <div class="hero-block-three flex ">
       <div class="block-text">

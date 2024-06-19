@@ -1,4 +1,4 @@
-document.getElementById('contactForm').addEventListener('submit', async (event) => {
+/* document.getElementById('contactForm').addEventListener('submit', async (event) => {
     event.preventDefault();
 
     const name = document.getElementById('name').value;
@@ -13,3 +13,4 @@ document.getElementById('contactForm').addEventListener('submit', async (event) 
         alert('Error submitting form');
     }
 });
+ */
