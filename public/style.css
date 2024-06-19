@@ -822,7 +822,7 @@ li.dropdown-list-item:hover::before {
   }
   
   .btn-container {
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-bottom: 20px;
   }
@@ -834,11 +834,8 @@ li.dropdown-list-item:hover::before {
   
   @media (max-width: 450px){
     .final-btns{
-      width: 150px;
+      width: 200px;
     }
-   #btn-5{
-    width: 170px;
-   }
   }
   
   .rounded-btn-holder {
