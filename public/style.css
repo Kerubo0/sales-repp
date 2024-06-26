@@ -9,7 +9,7 @@ html {
 body{
   margin: 0;
   padding: 0;
-  background-color: #212121;
+  background-color: #3d3d3d;
   color: #fff;
   width: 100vw;
   font-family: "Montserrat", sans-serif;
@@ -562,7 +562,8 @@ li.dropdown-list-item:hover::before {
   p{
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.7em;
+  line-height: 2.05em;
+  word-spacing: 2px;
   }
   
   .head-text{
@@ -573,7 +574,8 @@ li.dropdown-list-item:hover::before {
   
   .hero-text {
      text-align: center;
-     margin: 10px auto;
+     margin-top: 40px;
+     padding-top: 10px;
      max-width: 60%;
      max-width: 1000px;
    }
@@ -592,7 +594,7 @@ li.dropdown-list-item:hover::before {
   
   h1{
      font-size: 30px;
-     font-weight: 500;
+     font-weight: 600;
   }
   
   h2{
