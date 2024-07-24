@@ -915,10 +915,7 @@ display: flex;
 .footer-logo{
   width: 150px;
 }
-/*.footer-wrapper > div {
-  flex: 1 1 200px; 
-  margin-right: 20px; 
-}*/
+
 
 .footer-wrapper div p a { 
   color: whitesmoke;

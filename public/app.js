@@ -1,3 +1,4 @@
+//targets the hamburger menu
 const toggleBtn = document.querySelector('.toggle_btn')
 const toggleBtnIcon = document.querySelector('.toggle_btn i')
 const dropDownMenu = document.querySelector('.dropdown_menu')
@@ -11,6 +12,9 @@ toggleBtnIcon.classList  = isOpen
 : 'fa-solid fa-bars'
 }
 
+
+//targets dropdown for smaller screens ie IPADS
+
 const sLink = document.querySelector(".s_link")
 
 sLink.addEventListener ("click", () => {
@@ -20,6 +24,8 @@ sLink.addEventListener ("click", () => {
   //sLink.style.display = "none";
 }
 })
+
+
 
 const root = document.documentElement;
 
@@ -75,43 +81,9 @@ backToTopBtn.addEventListener("click", () => {
 
 actionBtn.addEventListener("click", ()=> {
  window.location.href = "http://localhost:3000/join"
-})
+})*/
 
-const actionBtnTwo = document.getElementById("action_btn2");
 
-actionBtnTwo.addEventListener("click", ()=> {
- window.location.href = "http://localhost:3000/join"
-})
-
-const btn = document.getElementById("btn");
-
-btn.addEventListener("click", ()=> {
- window.location.href = "http://localhost:3000/join"
-})
-
-const btnTwo = document.getElementById("btn-2");
-
-btnTwo.addEventListener("click", ()=> {
- window.location.href = "http://localhost:3000/join"
-})
-
-const btnThree = document.getElementById("btn-3");
-
-btnThree.addEventListener("click", ()=> {
- window.location.href = "http://localhost:3000/join"
-})
-
-const btnFour = document.getElementById("btn-4");
-
-btnFour.addEventListener("click", ()=> {
- window.location.href = "http://localhost:3000/join"
-})
-
-const btnFive = document.getElementById("btn-5");
-
-btnFive.addEventListener("click", ()=> {
- window.location.href = "http://localhost:3000/join"
-}) */
 
  const buttons = document.querySelectorAll(".btn").forEach(button => {
   button.addEventListener('click', () => {
